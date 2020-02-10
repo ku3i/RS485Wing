@@ -1,0 +1,23 @@
+= RS485Wing
+Doc Writer <kubisch@informatik.hu-berlin.de>
+v0.1, 2020-02-10
+:imagesdir: ./img
+:toc:
+
+
+_Schematics and Example Code for the RS485Wing._
+
+*NOTE: Before connecting any board or cable to the wing make sure you checked the schematics to verify the correct polarity!*
+
+In order to test the provided code, use a USB-to-RS485 interface, e.g. the FTDI: https://www.ftdichip.com/Support/Documents/DataSheets/Cables/DS_USB_RS485_PCB.pdf and setup a serial terminal program, e.g. screen using:
+
+....
+screen /dev/ttyUSB0 115200
+....
+
+You need to remove the RS485Wing from the Nano in oder to upload code to the Arduino. Also, please consider that, depending on how your serial communication is implemented, it might interfere with thing that are using the same RX/TX pins, like the IDE internal serial monitor.
+
+image::board_0.jpg[]
+image::board_1.jpg[]
+image::board_2.jpg[]
+
