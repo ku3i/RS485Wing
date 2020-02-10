@@ -15,7 +15,7 @@ In order to test the provided code, use a USB-to-RS485 interface, e.g. the FTDI:
 screen /dev/ttyUSB0 115200
 ....
 
-You need to remove the RS485Wing from the Nano in oder to upload code to the Arduino. Also, please consider that, depending on how your serial communication is implemented, it might interfere with thing that are using the same RX/TX pins, like the IDE internal serial monitor.
+You need to remove the RS485Wing from the Nano in oder to upload code to the Arduino. Also, please consider that, depending on how your serial communication is implemented, it might interfere with other things that are using the same RX/TX pins, like the IDE internal serial monitor.
 
 image::board_0.jpg[]
 image::board_1.jpg[]
