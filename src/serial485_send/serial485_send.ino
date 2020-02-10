@@ -1,24 +1,24 @@
-/* Eample Code for Supreme RS485 Nano-Wing 
+/* Example Code for Supreme RS485 Nano-Wing
  * Matthias Kubisch
  * Jetpack Cogintion Lab
  * Dec. 23th 2019
- * 
+ *
  * This code is enables send mode and transmits
  * a single character each 100 ms.
  *
- * To test this, use a USB-to-RS485 interface, 
+ * To test this, use a USB-to-RS485 interface,
  * e.g. the FTDI: https://www.ftdichip.com/Support/Documents/DataSheets/Cables/DS_USB_RS485_PCB.pdf
  * and setup a serial terminal program, e.g. screen
- * using: 
- * 
+ * using:
+ *
  * $ screen /dev/ttyUSB0 115200
- * 
+ *
  * and watch the character 'A' appear in your serial terminal program.
- * 
- * PLEASE NOTE: Depending on how your serial communication is implemented, 
+ *
+ * PLEASE NOTE: Depending on how your serial communication is implemented,
  * it might interfere with uploading code via the Arduino IDE, since the same RX/TX pins are used.
  * It is hence generally recommended to remove the Nano from the RS485Wing in case you notice upload problems.
- 
+
  */
 
 
